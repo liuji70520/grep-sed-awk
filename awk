@@ -9,6 +9,8 @@
 显示姓，其后跟一个逗号和名，如 Jody, Savage。
 答案：
 
+```bash
+
 awk -F "[ :]" '{print $4}' file
 awk -F "[ :]" 'NR==7 {print $4}' file
 awk -F "[ :]" 'NR==3 {print $1,$4}' file 或者 awk -F ":" '/^Susan/{print $1,$2}' file
@@ -18,3 +20,5 @@ awk -F "[ ]" '{if (length($1)==4) print $1}' file
 awk -F ":" '/\[916\]/{print $1}' file
 awk -F "[ :]" '/^Mike/ {print "$"$5,"$"$6,"$"$7}' file
 awk -F "[ :]" '{print $1","$2}' file 或者 awk -F "[ :]" '{print $1",",$2}' file
+
+```
