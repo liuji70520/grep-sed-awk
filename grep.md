@@ -18,7 +18,7 @@
 
 显示包括 "Lincoln" 或 "lincoln" 的行，并且 grep 对大小写不敏感。
 答案：
-
+```
 grep -n "San" file
 grep -n "^J" file
 grep -n "700$" file
@@ -29,3 +29,4 @@ grep -n '[A-Z][a-z][a-z][a-z][a-z]: [A-Z]' file
 grep -n "^[k,K]" file
 grep -n '^[0-9]\{6,\}' file
 grep -in 'lincoln' file
+```
