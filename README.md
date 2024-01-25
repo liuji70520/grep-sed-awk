@@ -6,8 +6,8 @@
 # 正则表达式练习
 [编程胶囊](https://www.codejiaonang.com/#/courses)
 # awk
-[awk基础练习题](https://github.com/liuji70520/grep-sed-awk/blob/main/awk)
+[awk基础练习题](https://github.com/liuji70520/grep-sed-awk/blob/main/awk.md)
 # grep
-[grep基础练习题](https://github.com/liuji70520/grep-sed-awk/blob/main/grep)
+[grep基础练习题](https://github.com/liuji70520/grep-sed-awk/blob/main/grep.md)
 # sed
-[sed基础练习题](https://github.com/liuji70520/grep-sed-awk/blob/main/sed)
+[sed基础练习题](https://github.com/liuji70520/grep-sed-awk/blob/main/sed.md)
